@@ -1,11 +1,15 @@
 
 import './App.css';
-import {useState, useEffect} from 'react';
+
+import Countries from './components/Countries/Countries'
+import Header from './components/Header/Header';
+// import {useState, useEffect} from 'react';
 
 function App() {
   return (
     <div className="App">
-  
+      <Header/>
+      <Countries/>
     </div>
   );
 }
