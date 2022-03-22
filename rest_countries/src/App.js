@@ -26,7 +26,19 @@ function Countries(){
     <div>
       <h2>Traveling around the world : </h2>
       <h5>Countries : {countries.length}</h5>
+      <div>
+        {
+          countries.map(country => <Country name = {country.name.official}/>)
+          //console.log(country.name.official
+        }
+      </div>
     </div>
+  )
+}
+
+function Country(props){
+  return (
+    <div> <h6>Name : {props.name}</h6></div>
   )
 }
 
