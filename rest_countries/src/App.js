@@ -1,15 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
 import {useState, useEffect} from 'react';
 
 function App() {
   return (
     <div className="App">
-      <Countries/>
+  
     </div>
   );
 }
-
+/* 
 function Countries(){
   //declire state 
   const [countries, setCountries] = useState([])
@@ -41,5 +41,5 @@ function Country(props){
     <div> <h6>Name : {props.name}</h6></div>
   )
 }
-
+ */
 export default App;
